@@ -1,0 +1,35 @@
+# Next.js
+.next
+out
+next-env.d.ts
+tsconfig.tsbuildinfo
+
+# Dependencies
+node_modules
+
+# Environment
+.env*
+!.env.example
+
+# Backups
+*.bak
+
+# Logs
+*.log
+npm-debug.log*
+
+# Build
+dist
+/public/static/docs
+
+# Editors
+.vscode
+.idea
+*.swp
+*.swo
+
+# System
+.DS_Store
+
+# Database
+/prisma/migrations
